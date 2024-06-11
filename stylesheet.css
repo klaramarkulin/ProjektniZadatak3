@@ -1,0 +1,84 @@
+@charset "utf-8";
+/* CSS Document */
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+@font-face {
+    font-family: 'KlaraMarkulin';
+    src: url('KlaraMarkulin.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.naslovi h1 {
+    font-family: 'KlaraMarkulin';
+    font-size: 500%;
+    text-align: center;
+    color: rgb(56, 56, 160);
+    
+}
+
+.naslovi h2 {
+    font-family: 'Nunito';
+    text-align: center;
+	margin-left:200px;
+	margin-right:200px;
+    color: white;
+    background-color: rgb(56, 56, 160);
+}
+
+.naslovi h3 {
+    font-family: 'Nunito';
+    text-align: center;
+    color: black;
+}	
+.naslovi h4 {
+    font-family: 'Nunito';
+    text-align: center;
+    font-size: 50px;
+    color: black;
+}
+
+body {
+    background-image: url('slike/pozadina.jpg'); 
+    background-size: cover;
+    background-position: center;
+    font-family: 'Nunito';
+    font-size: 16px; 
+    
+}
+
+img {
+    width: 30%;
+    height: 30%;
+}
+video.center {
+
+    display: block;
+    
+    margin-left: auto;
+    
+    margin-right: auto;
+    align-items: center;
+    }
+
+.text {
+    text-align: center;
+}
+
+nav {
+	display: flex;
+	align-items: center;
+}
+
+ul {
+	display:inline;
+	align-items: center;
+}
+
+li:hover {
+		 background: #2C1A46;
+		}
+
+li {
+    border-radius: 20px;
+}

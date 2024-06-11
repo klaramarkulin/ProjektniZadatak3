@@ -84,3 +84,9 @@ li {
     border-radius: 20px;
 }
 
+.vjezbe {
+	color:white; 
+	display: flex;
+	align-items: center;
+}
+

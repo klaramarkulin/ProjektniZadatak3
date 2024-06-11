@@ -84,9 +84,7 @@ li {
     border-radius: 20px;
 }
 
-.vjezbe {
+.vjezbe p {
 	color:white; 
-	display: flex;
-	align-items: center;
 }
 
